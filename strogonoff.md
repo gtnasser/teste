@@ -1,3 +1,0 @@
-# Strogooff de Frango
-
-primeiro 
