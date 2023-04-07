@@ -156,16 +156,64 @@ user.email=gtnasser@gmail.com
 user.name=Giba
 ```
 
+* git init   -> inicializa o repositório (cria a pasta .git)
+* git add    -> adiciona os arquivos na lista de "prontos para o commit
+* git commit -> registra a "foto" dos arquivos associando uma mensagem, autor, data, etc
 
-### git init
+ex: $ git commit -m "first commit"
 
-inicializa o repositorio
-cria a pasta .git
+### Estado do arquivo
 
-### git add
+           Tracked
+           --------------------------------
+Untracked  Unmodified Modified   Staged
+---------- ---------- ---------- ---------- 
+    |          |          |          |
+    |adiciona o arquivo   |          |
+    |------------------------------->|
+    |          |          |          |
+    |          |edita     |          |
+    |          |--------->|          |
+    |          |          |          |
+    |          |          |stage (adiciona)
+    |          |          |--------->|
+    |          |          |          |
+    |    remove|          |          |
+    |<---------|          |          |
+    |          |          |          |
+    |          |          |    commit|
+    |          |<--------------------|
+    |          |          |          |
 
-### git commit
+
+Ambiente de desenvolvimento
++------------+  +------------+  +------------+
+| WORKING    |  | STAGING    |  | LOCAL      |
+| DIRECTORY  |  | AREA       |  | REPOSITORY |
++------------+  +------------+  +------------+
+
+                                Servidor (ex: Github)
+                                +------------+
+                                | REMOTE     |
+                                | REPOSITORY |
+                                +------------+
+
+$ git status
 
 
 
 
+
+
+
+
+
+
+--------------
+
+
+# LIVRO DE RECEITAS :chicken:
+
+Olá! Bem vindo ao meu livro de receitas
+
+- Strogonoff de frango
