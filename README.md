@@ -209,7 +209,7 @@ $ git remote -v
 origin  https://github.com/gtnasser/teste.git (fetch)
 origin  https://github.com/gtnasser/teste.git (push)
 
-$ git push origin master
+$ git push origin main
 Enumerating objects: 12, done.
 Counting objects: 100% (12/12), done.
 Delta compression using up to 8 threads
@@ -218,19 +218,14 @@ Writing objects: 100% (12/12), 3.89 KiB | 1.30 MiB/s, done.
 Total 12 (delta 1), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (1/1), done.
 remote:
-remote: Create a pull request for 'master' on GitHub by visiting:
-remote:      https://github.com/gtnasser/teste/pull/new/master
+remote: Create a pull request for 'main' on GitHub by visiting:
+remote:      https://github.com/gtnasser/teste/pull/new/main
 remote:
 To https://github.com/gtnasser/teste.git
- * [new branch]      master -> master
+ * [new branch]      main -> main
 
 
 ### Resolvendo conflitos
-
-
-
-
-
 
 
 
